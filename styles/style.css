@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 /* shared styles */
@@ -20,6 +20,10 @@
     color: #fd6e0a;
 }
 
+.font-dark1 {
+    color: #181818;
+}
+
 .font-dark2 {
     color: #474747;
 }
@@ -34,6 +38,15 @@
     cursor: pointer;
 }
 
+.header {
+    /* padding-left: 30px; */
+    background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, bottom right;
+    /* background-size: 200px, 55%; */
+}
+
+/* nav open */
 nav {
     display: flex;
     justify-content: space-between;
@@ -57,7 +70,48 @@ nav ul li a {
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     /* justify-content: end; */
 }
+/* nav close  */
+
+/* banner open */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 180px;
+    align-items: center;
+}
+
+.banner-content {
+    align-items: center;
+}
+
+.banner-greeting {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-name {
+    font-weight: 800;
+    font-size: 85px;
+}
+
+.banner-image img {
+    width: 600px;
+    border-bottom: 5px solid #fd6f0aa0;
+}
+
+.contact-btn, .cv-btn {
+    margin: 20px 30px 0 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-bio {
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* close banner */
