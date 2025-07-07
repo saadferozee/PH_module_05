@@ -48,10 +48,11 @@ Video 02___________________________________________
 
 
 Video 03___________________________________________
-    
- 
+    (Navbar Alignment and Use of Flex)
 
 
+    We can Align elements vertically using -->
+        <selector> { align-items: center; }
 
 
 
