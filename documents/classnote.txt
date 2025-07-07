@@ -39,13 +39,16 @@ Video 01___________________________________________
 Video 02___________________________________________
     (Set Google Font, and set Navbar, and Primary Color)
 
+    Usage of Google Font -->
 
-
-
+        • Search
+        • Select
+        • Embed 
 
 
 
 Video 03___________________________________________
+    
  
 
 
