@@ -57,15 +57,27 @@ Video 03___________________________________________
 
 
 Video 04___________________________________________
+    (Banner Content and Portfolio Image using Flex)
 
 
+    We can positioning the background image using -->
+
+        <selector> {
+            background-position: top left, bottom right;
+        }
 
 
+--------------------------------------------------
+    Pause { 08.07.2025 TUE 03:40 AM } to { 09.07.2025 WED 04:02 PM }
+--------------------------------------------------
 
 
 Video 05___________________________________________
+    (Use Flexbox for About Info and Main Style)
 
 
+    We can add class after class in CSS -->
+        .about-section .about-cards {....}
 
 
 

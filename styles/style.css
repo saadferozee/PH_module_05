@@ -7,8 +7,18 @@
 }
 
 /* shared styles */
+.default-width {
+    width: 75%;
+    margin: 0 auto;
+}
 
-.font-normal{
+.default-bg {
+    background-color: #fff8f3;
+}
+.white-bg {
+    background-color: white;
+}
+.font-normal {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -27,6 +37,9 @@
 .font-dark2 {
     color: #474747;
 }
+.font-dark3 {
+    color: #757575;
+}
 
 .btn-primary {
     background-color: #fd6e0a;
@@ -38,8 +51,22 @@
     cursor: pointer;
 }
 
+.section-heading h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.section-heading p {
+    margin-bottom: ;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* header */
 .header {
     /* padding-left: 30px; */
+    background-color: #fff8f3;
     background-image: url(../assets/images/developer.png), url(../assets/images/header_bg.png);
     background-repeat: no-repeat, no-repeat;
     background-position: left, bottom right;
@@ -103,7 +130,8 @@ nav ul li a {
     border-bottom: 5px solid #fd6f0aa0;
 }
 
-.contact-btn, .cv-btn {
+.contact-btn,
+.cv-btn {
     margin: 20px 30px 0 0;
     font-weight: 600;
     font-size: 20px;
@@ -114,4 +142,38 @@ nav ul li a {
     font-weight: 400;
     font-size: 20px;
 }
-/* close banner */
+
+/* banner close */
+
+/* main section open */
+.about-section {
+    margin-top: 130px;
+    padding: 130px 155px;
+    border-radius: 18px;
+}
+
+.about-section {
+    text-align: center;
+
+}
+
+.about-section .white-bg {
+    border-radius: 15px;
+    border: 1px solid #feeee3c6;
+    padding: 10px;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.about-card h4 {
+    font-weight: 300;
+    font-size: 18px;
+}
+.about-card h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+}
