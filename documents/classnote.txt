@@ -82,8 +82,12 @@ Video 05___________________________________________
 
 
 Video 06___________________________________________
+    (Technical Skills, Flex Gap and How to apply Flex)
 
-
+    We can use box-shadow as a highlighter -->
+        <selector> {
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+        }
 
 
 
