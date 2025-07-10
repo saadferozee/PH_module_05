@@ -13,6 +13,9 @@
         href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans+Arabic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=Urbanist&display=swap"
         rel="stylesheet">
 
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/6f327e5133.js" crossorigin="anonymous"></script>
+
     <!-- stylesheets -->
     <link rel="stylesheet" href="styles/style.css">
 
@@ -21,24 +24,24 @@
 <body class="open-sans-normal">
     <header class="header">
 
-        <nav>
+        <nav class="flex">
             <!-- My code here  -->
             <h3 class="nav-heading">Sa<span class="font-orange">a</span>d</h3>
-            <ul class="nav-links font-normal">
+            <ul class="nav-links flex font-normal">
                 <li><a class="font-dark2" href="">Portfolio</a></li>
                 <li><a class="font-dark2" href="">Blogs</a></li>
-                <li><a href=""><button class="btn-primary font-normal">Hire Me</button></a></li>
+                <li><a href=""><button class="btn-primary font-normal"><i class="fa-solid fa-briefcase"></i> Hire Me</button></a></li>
             </ul>
         </nav>
 
-        <section class="banner">
+        <section class="banner flex">
             <div class="banner-content">
                 <h3 class="banner-greeting font-dark2 font-normal">Hi, I am</h3>
                 <h1 class="banner-name font-orange font-dark1">Saad Ferozee</h1>
                 <p class="banner-bio font-normal font-dark2">I approach my every work with deep focus, ensuring a
                     productive environment free from unnecessary distractions.</p>
-                <button class="cv-btn btn-primary">Download CV</button>
-                <button class="contact-btn btn-primary">Contact</button>
+                <button class="cv-btn btn-primary"><i class="fa-solid fa-file-arrow-down"></i> Download CV</button>
+                <button class="contact-btn btn-primary"><i class="fa-solid fa-address-book"></i> Contact</button>
             </div>
             <div class="banner-image">
                 <img src="assets/images/SaadFerozee2.png" alt="A image of Saad Ferozee">
@@ -56,7 +59,7 @@
                     developing simple, clean and slick websites that provide real value to the end user. Thousands of
                     clients have procured exceptional results while working with me. Delivering work within time and
                     budget which meets clients requirements in our meta.</p>
-                <div class="about-cards">
+                <div class="about-cards flex">
                     <div class="about-card">
                         <h4 class="font-dark3">Name</h4>
                         <h3 class="font-dark2">Saad Ferozee</h3>
@@ -83,48 +86,123 @@
                 the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to
                 find out more about my experience? Check out my online resume and project portfolio.</p>
 
-            <div class="skill-cards">
-                <div class="skill-card">
+            <div class="skill-cards flex">
+                <div class="skill-card flex">
                     <img src="assets/icons/js.png" alt="JavaScript Icon">
                     <div>
                         <h4>Vanilla JavaScript</h4>
-                        <p>JavaScript adds interactivity, dynamic content, and logic to websites, making web experiences engaging and functional.</p>
+                        <p>JavaScript adds interactivity, dynamic content, and logic to websites, making web experiences
+                            engaging and functional.</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="assets/icons/react.png" style="width: 60px;" alt="React Icon">
                     <div>
                         <h4>React</h4>
-                        <p>React is a JavaScript library for building user interfaces, allowing for the creation of reusable UI components and efficient updates.</p>
+                        <p>React is a JavaScript library for building user interfaces, allowing for the creation of
+                            reusable UI components and efficient updates.</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="assets/icons/nodejs.png" alt="Node.js Icon">
                     <div>
                         <h4>Node.js</h4>
-                        <p>Node.js is a JavaScript runtime built on Chrome's V8 engine, enabling server-side scripting and the development of scalable network applications.</p>
+                        <p>Node.js is a JavaScript runtime built on Chrome's V8 engine, enabling server-side scripting
+                            and the development of scalable network applications.</p>
                     </div>
                 </div>
                 <div class="skill-card">
                     <img src="assets/icons/mongo.png" alt="MongoDB Icon">
                     <div>
                         <h4>MongoDB</h4>
-                        <p>MongoDB is a NoSQL database that uses a document-oriented data model, providing high performance and flexibility for modern applications.</p>
+                        <p>MongoDB is a NoSQL database that uses a document-oriented data model, providing high
+                            performance and flexibility for modern applications.</p>
                     </div>
                 </div>
-           </div>
-           
+            </div>
+
         </section>
 
-        <section class="summary-section">
+        <section class="summary-section default-width font-normal">
             <!-- My code here  -->
+            <h3 class="section-title center">A Summary of My Resume</h3>
+            <div class="summary-boxes flex">
+                <div class="resume-type-box">
+                    <h2 class="resume-type-title">My Education</h2>
+                    <div class="summary-box">
+                        <h4 class="resume-sec-head">Master in Computer Engineering</h4>
+                        <H5 class="resume-sec-subhead">Harvard University / 2015-2017</H5>
+                        <p class="resume-sec-para">Completed advanced coursework, developed strong problem-solving
+                            skills, and collaborated on innovative engineering projects.</p>
+                    </div>
+                    <hr>
+                    <div class="summary-box">
+                        <h4 class="resume-sec-head">Master in Computer Engineering</h4>
+                        <H5 class="resume-sec-subhead">Stanford University / 2017-2019</H5>
+                        <p class="resume-sec-para">Focused on artificial intelligence and machine learning, completing a
+                            thesis on neural network optimization.</p>
+                    </div>
+                    <hr>
+                    <div class="summary-box">
+                        <h4 class="resume-sec-head">Bachelor in Computer Science</h4>
+                        <H5 class="resume-sec-subhead">Massachusetts Institute of Technology / 2011-2015</H5>
+                        <p class="resume-sec-para">Graduated with honors, specializing in software development and data
+                            structures.</p>
+                    </div>
+                </div>
+                <div class="resume-type-box">
+                    <h2 class="resume-type-title">My Experience</h2>
+                    <div class="summary-box">
+                        <h4 class="resume-sec-head">Software Engineer</h4>
+                        <H5 class="resume-sec-subhead">Apple Inc. / 2019-Present</H5>
+                        <p class="resume-sec-para">Developing scalable web applications and collaborating with
+                            cross-functional teams to deliver high-quality software solutions.</p>
+                    </div>
+                    <hr>
+                    <div class="summary-box">
+                        <h4 class="resume-sec-head">Junior Developer</h4>
+                        <H5 class="resume-sec-subhead">Apple Inc. / 2017-2019</H5>
+                        <p class="resume-sec-para">Assisted in the development of web applications and gained experience
+                            in full-stack development.</p>
+                    </div>
+                    <hr>
+                    <div class="summary-box">
+                        <h4 class="resume-sec-head">Intern</h4>
+                        <H5 class="resume-sec-subhead">Apple Inc. / 2016-2017</H5>
+                        <p class="resume-sec-para">Assisted in various projects and gained hands-on experience in
+                            software development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-primary font-normal center"><i class="fa-solid fa-file-arrow-down"></i> Download Resume</button>
         </section>
 
     </main>
 
-    <footer>
-        <h5 hidden> &copy; All right reserved by Saad Ferozee </h5>
+    <footer class="default-bg font-normal">
+        <div class="footer-content default-width flex">
+            <section class="footer-connect-link">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-description">Feel free to reach out to me on social media or through my website.</p>
+                <a href="https://www.facebook.com/saadbinbulbulferozee/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.instagram.com/saad_ferozee" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.x.com/SaadFerozee" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/saadferozee" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <hr>
+                <h5> &copy; All right reserved by Saad Ferozee </h5>
+            </section>
+            <section class="footer-message-form ">
+                <h2 class="section-title">Let's Message Me</h2>
+                <input type="text" name="name" id="input-name" placeholder="Your Name" class="input-field">
+                <input type="email" name="email" id="input-email" placeholder="Your Email" class="input-field">
+                <textarea name="message" id="input-message" placeholder="Your Message" class="input-field"></textarea>
+                <button type="submit" class="btn-primary font-normal"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            </section>
+        </div>
     </footer>
 </body>
 
 </html>
+
+<!-- close this HTML file -> { 10.07.2025 THU 05:59 PM } -->
